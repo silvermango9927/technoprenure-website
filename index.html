@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/7a8da726c4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Technopreneur Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <img
+            class="logo-img"
+            src="./img/remod_logo_lighht.png"
+            alt="Remod Logo Light"
+          />
+        </div>
+        <div class="nav__content">
+          <div class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link button">Contact Us</a>
+            </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <section id="home" class="hero">
+          <div class="content">
+            <h1 class="title">Lorem ipsum dolor sit amet.</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              sapiente illum magnam voluptas officiis totam nulla ea, modi
+              deserunt perspiciatis.
+            </p>
+            <a href="#products" class="btn">Check it out</a>
+          </div>
+          <img src="./img/img1.jpg" alt="Health Hero Image" />
+        </section>
+      </div>
+
+      <section id="products" class="products">
+        <div class="container">
+          <h1 class="product-title">Our Products</h1>
+          <div class="cards">
+            <div class="card">
+              <h2 class="card-title">Vaccine Checklist</h2>
+              <p class="card-description">
+                Many people in the world are dying due to not getting vaccinated
+                properly. This is a simple product to help keep track of how
+                many vaccines you have already taken and how many you are yet to
+                take. This is especially helps young children
+              </p>
+              <div class="flex">
+                <a href="" class="btn">View Demo App</a>
+              </div>
+            </div>
+            <div class="card">
+              <h1 class="upcoming">COMING SOON !!</h1>
+              <h2 class="card-title">Breather</h2>
+              <p class="card-description">
+                A lot of people are not mentally stable. They face a lot of
+                stress and tension. One of the best remedies to this is
+                meditation. This app allows you to control your breathing and
+                soothe your mind.
+              </p>
+            </div>
+            <div class="card">
+              <h1 class="upcoming">COMING SOON !!</h1>
+              <h2 class="card-title">Hydrotracker</h2>
+              <p class="card-description">
+                This app allows people to actively measure how much water
+                they're drinking. Drinking an adequate amount of water is
+                crucial and is an excellent first-hand remedy to many symptoms
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <h1 class="contact-title">Contact Us</h1>
+
+          <h2 class="subtitle">Get in Touch</h2>
+          <form class="form">
+            <div class="name comp">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter your name" />
+            </div>
+            <div class="email comp">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email address"
+              />
+            </div>
+            <div class="message comp">
+              <label for="message">Enter your message</label>
+              <textarea id="message"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
